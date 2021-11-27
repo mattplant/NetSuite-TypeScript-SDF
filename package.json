@@ -1,0 +1,8 @@
+{
+    "name": "typescript_sdf_project_template",
+    "version": "1.0.0",
+    "devDependencies": {
+      "typescript": "^4.5.2",
+      "@hitc/netsuite-types": "^2021.2.10"
+    }
+  }
