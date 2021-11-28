@@ -1,5 +1,6 @@
 {
     "extends": [
+        "airbnb-base/legacy",
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:suitescript/all"
@@ -8,5 +9,7 @@
     "plugins": [
         "@typescript-eslint",
         "suitescript"
-    ]
+    ],
+    "rules": {
+    }
 }
