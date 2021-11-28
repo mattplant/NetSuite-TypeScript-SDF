@@ -2,7 +2,11 @@
     "name": "typescript_sdf_project_template",
     "version": "1.0.0",
     "devDependencies": {
-      "typescript": "^4.5.2",
-      "@hitc/netsuite-types": "^2021.2.10"
+        "@hitc/netsuite-types": "^2021.2.10",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint": "^8.3.0",
+        "eslint-plugin-suitescript": "^1.2.1",
+        "typescript": "^4.5.2"
     }
-  }
+}
