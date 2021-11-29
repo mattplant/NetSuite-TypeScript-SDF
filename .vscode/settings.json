@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // ESLINT SETTINGS
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["typescript"],
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  // EDITOR SETTINGS
+  "editor.tabSize": 2
+}

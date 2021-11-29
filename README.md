@@ -31,9 +31,23 @@ This template was initialy built by Oracle's SuiteCloud SDK via `suitecloud proj
 
 For TypeScript support I leveraged https://github.com/headintheclouddev/typings-suitescript-2.0.
 
-For linting and automatic code fixing I used https://eslint.org/.
+For linting and automatic code fixing I used:
+- ESLint - https://eslint.org/
+- TypeScript ESLint - https://github.com/typescript-eslint/typescript-eslint
+- "eslint-config-airbnb-base/legacy" from https://github.com/airbnb/javascript to support ES5 for SuiteScript 2.0
+- "eslint-plugin-suitescript" from https://github.com/acdvs/eslint-plugin-suitescript to support SuiteScript v1 and v2
 
-## macOS Tools
+## VS Code Tools (optional)
+
+The IDE that I used along with the related extensions:
+- Visual Studio Code
+  - https://code.visualstudio.com/
+- SuiteCloud Extension for Visual Studio Code
+  - https://marketplace.visualstudio.com/items?itemName=Oracle.suitecloud-vscode-extension
+- VS Code ESLint extension
+  - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+## macOS Tools (optional)
 
 Tools I used to fufill the above requirements in macOS.
 
@@ -49,4 +63,3 @@ Tools I used to fufill the above requirements in macOS.
   - `brew install --cask visual-studio-code`
 - SuiteCloud Extension for VS Code
   - Install the "SuiteCloud Extension for Visual Studio Code" bundle.
-
