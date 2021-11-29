@@ -7,25 +7,22 @@
 - SuiteCloud SDK - https://github.com/oracle/netsuite-suitecloud-sdk
 
 ## Usage
+Use TypeScript with NetSuite SDF in 6 steps.
+- clone the repo
+  - `git clone https://github.com/mattplant/netsuite-typescript-sdf.git`
+- enable linting
+  - `cd netsuite-typescript-sdf; npm install`
+- load project in VS Code
+  - `code .`
+- have TypeScript watch the input files
+  - `tsc -w`
+- connect your NetSuite account via "SuiteCloud: Set Up Account" thru the command palette in VS Code
 
-Use this template as a base for your NetSuite TypeScript SDF Projects.
-
-Add your TypeScript files to the */src/TypeScripts* folder.  When *tsc* is executed it will place the corresponding JavaScript file in the */src/FileCabinet/SuiteScripts* directory.
-
-For more info on using TypeScript for NetSuite see https://github.com/headintheclouddev/typings-suitescript-2.0.
-
-### SuiteScript 2.0
-
-This template will compile JavaScript for NetSuite's API Version 2.0 (aka SuiteScript 2.0).
-
-### SuiteCloud SDK
-
-You will need to connect to your NetSuite account.
-`suitecloud account:setup`
+Now when you create your TypeScript files in the */src/TypeScripts* folder they will automatically be linted as you type and automatically formatted and code fixed upon saving. The corresponding JavaScript for NetSuite's API Version 2.0 (aka SuiteScript 2.0) will automatically be generated in the */src/FileCabinet/SuiteScripts* directory ready for upload to your NetSuite account.
 
 ## Notes
 
-NetSuite customization development is now done with modern tools.  They now support VS Code along with version control systems so that you have complete control over your development processes. Your NetSuite customizations (files, scripts and other custom objects) can be imported and exported between your NetSuite environments (production, sandbox, release preview, or development) and your development environment including detailed deployment logs and audit trails.
+NetSuite customization development is now done with modern tools. You now have complete control over your development processes including using VS Code. Your NetSuite customizations (files, scripts and other custom objects) can be imported and exported between your NetSuite environments (production, sandbox, release preview, or development) and your development environment including detailed deployment logs and audit trails.
 
 This template was initialy built by Oracle's SuiteCloud SDK via `suitecloud project:create -i`.
 
