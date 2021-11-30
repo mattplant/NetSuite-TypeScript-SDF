@@ -6,23 +6,31 @@
 - Oracle JDK version 11 (64 bit) - required for SuiteCloud SDK
 - SuiteCloud SDK - https://github.com/oracle/netsuite-suitecloud-sdk
 - "SuiteCloud Development Integration" (245955) installed in NetSuite
+- Visual Studio Code - https://code.visualstudio.com/
 
-## Usage
-Use TypeScript with NetSuite SDF in 5 steps.
+## Initial Setup
+These initial steps will only need to be done once.
+
+### Core Configuration
 - clone the repo
   - `git clone https://github.com/mattplant/netsuite-typescript-sdf.git`
 - enable linting
   - `cd netsuite-typescript-sdf; npm install`
-- load project in VS Code
-  - `code .`
-- have TypeScript watch the input files
-  - `tsc -w`
-- connect your NetSuite account via "SuiteCloud: Set Up Account" thru the command palette in VS Code
+- connect your NetSuite account
+  - `suitecloud account:setup`
 
-Now when you create your TypeScript files in the */src/TypeScripts* folder they will automatically be linted as you type and automatically formatted and code fixed upon saving. The corresponding JavaScript for NetSuite's API Version 2.0 (aka SuiteScript 2.0) will automatically be generated in the */src/FileCabinet/SuiteScripts* directory ready for upload to your NetSuite account.
+### VS Code Configuration (optional)
+- install required VS Code extensions
+  - SuiteCloud Extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=Oracle.suitecloud-vscode-extension
+- VS Code ESLint extension - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- allow VS Code to run automatic tasksso that TypeScript will automatically run in the background
+  - in command palette, select "Tasks: Manage Automatic Tasks in Folder" and then "Allow Automatic Tasks in Folder"
+- connect your NetSuite account via "SuiteCloud: Set Up Account" in the Command Palette in VS Code
+
+## Usage
+Now in VS Code when you create your TypeScript files in the */src/TypeScripts* folder they will automatically be linted as you type and automatically formatted and code fixed upon saving. The corresponding JavaScript for NetSuite's API Version 2.0 (aka SuiteScript 2.0) will automatically be generated in the */src/FileCabinet/SuiteScripts* directory ready for upload to your NetSuite account.
 
 ## Notes
-
 NetSuite customization development is now done with modern tools. You now have complete control over your development processes including using VS Code. Your NetSuite customizations (files, scripts and other custom objects) can be imported and exported between your NetSuite environments (production, sandbox, release preview, or development) and your development environment including detailed deployment logs and audit trails.
 
 This template was initialy built by Oracle's SuiteCloud SDK via `suitecloud project:create -i`.
@@ -35,20 +43,8 @@ For linting and automatic code fixing I used:
 - "eslint-config-airbnb-base/legacy" from https://github.com/airbnb/javascript to support ES5 for SuiteScript 2.0
 - "eslint-plugin-suitescript" from https://github.com/acdvs/eslint-plugin-suitescript to support SuiteScript v1 and v2
 
-## VS Code Tools (optional)
-
-The IDE that I used along with the related extensions:
-- Visual Studio Code
-  - https://code.visualstudio.com/
-- SuiteCloud Extension for Visual Studio Code
-  - https://marketplace.visualstudio.com/items?itemName=Oracle.suitecloud-vscode-extension
-- VS Code ESLint extension
-  - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-
 ## macOS Tools (optional)
-
 Tools I used to fufill the above requirements in macOS.
-
 - Homebrew
   - https://brew.sh/
 - Node
