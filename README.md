@@ -5,9 +5,10 @@
 - TypeScript - https://www.typescriptlang.org/
 - Oracle JDK version 11 (64 bit) - required for SuiteCloud SDK
 - SuiteCloud SDK - https://github.com/oracle/netsuite-suitecloud-sdk
+- "SuiteCloud Development Integration" (245955) installed in NetSuite
 
 ## Usage
-Use TypeScript with NetSuite SDF in 6 steps.
+Use TypeScript with NetSuite SDF in 5 steps.
 - clone the repo
   - `git clone https://github.com/mattplant/netsuite-typescript-sdf.git`
 - enable linting
