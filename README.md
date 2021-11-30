@@ -5,8 +5,7 @@
 - TypeScript - https://www.typescriptlang.org/
 - Oracle JDK version 11 (64 bit) - required for SuiteCloud SDK
 - SuiteCloud SDK - https://github.com/oracle/netsuite-suitecloud-sdk
-- "SuiteCloud Development Integration" (245955) installed in NetSuite
-- Visual Studio Code - https://code.visualstudio.com/
+- "SuiteCloud Development Integration" (245955) bundle installed in NetSuite
 
 ## Initial Setup
 These initial steps will only need to be done once.
@@ -20,12 +19,11 @@ These initial steps will only need to be done once.
   - `suitecloud account:setup`
 
 ### VS Code Configuration (optional)
-- install required VS Code extensions
+- install VS Code extensions
   - SuiteCloud Extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=Oracle.suitecloud-vscode-extension
-- VS Code ESLint extension - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-- allow VS Code to run automatic tasksso that TypeScript will automatically run in the background
+  - VS Code ESLint extension - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- allow VS Code to run tasks automatically so that TypeScript can automatically run in the background
   - in command palette, select "Tasks: Manage Automatic Tasks in Folder" and then "Allow Automatic Tasks in Folder"
-- connect your NetSuite account via "SuiteCloud: Set Up Account" in the Command Palette in VS Code
 
 ## Usage
 Now in VS Code when you create your TypeScript files in the */src/TypeScripts* folder they will automatically be linted as you type and automatically formatted and code fixed upon saving. The corresponding JavaScript for NetSuite's API Version 2.0 (aka SuiteScript 2.0) will automatically be generated in the */src/FileCabinet/SuiteScripts* directory ready for upload to your NetSuite account.
