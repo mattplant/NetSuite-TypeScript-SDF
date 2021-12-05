@@ -7,12 +7,12 @@
         "sdf",
         "suitescript",
         "typescript"
-     ],
+    ],
     "version": "1.0.0",
     "publisher": "mattplant",
     "author": {
         "name": "Matthew Plant"
-     },
+    },
     "license": "MIT",
     "devDependencies": {
         "@hitc/netsuite-types": "^2021.2.10",
@@ -22,7 +22,9 @@
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-plugin-import": "^2.25.3",
         "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-suitescript": "^1.2.1",
+        "eslint-plugin-suitescript": "^1.2.1"
+    },
+    "dependencies": {
         "typescript": "^4.5.2"
     }
 }
