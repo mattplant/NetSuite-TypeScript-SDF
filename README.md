@@ -47,6 +47,8 @@ Tools I used to fufill the above requirements in macOS.
   - https://brew.sh/
 - Node
   - `brew install node`
+- TypeScript
+  - `npm install -g typescript`
 - OpenJDK 11
   - `brew install openjdk@11`
 - SuiteCloud SDK
