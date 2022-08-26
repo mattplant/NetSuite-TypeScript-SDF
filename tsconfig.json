@@ -1,29 +1,27 @@
 {
     "compilerOptions": {
-        "module": "amd",
-        "target": "es5",
-        "moduleResolution": "node",
-        "sourceMap": false,
-        "newLine": "LF",
-        "experimentalDecorators": true,
-        "noImplicitUseStrict": true,
+        "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
         "lib": [
-            "es5",
+            "es7",
             "es2015.promise",
             "dom"
         ],
+        "module": "amd",
+        "moduleResolution": "node",
+        "newLine": "LF",
+        "noImplicitUseStrict": true,
+        "noUnusedLocals": true,
+        "outDir": "./src/FileCabinet/SuiteScripts/netsuite-typescript-sdf",
         "paths": {
-            "N": [
-                "node_modules/@hitc/netsuite-types/N"
-            ],
-            "N/*": [
-                "node_modules/@hitc/netsuite-types/N/*"
-            ]
+            "N": ["node_modules/@hitc/netsuite-types/N"],
+            "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
         },
-        "outDir": "src/FileCabinet/SuiteScripts"
+        "sourceMap": false,
+        "target": "es2020"
     },
-    "exclude": [
-        "node_modules"
-    ]
+    "include": ["."],
+    "exclude": ["node_modules"]
 }
