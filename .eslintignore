@@ -1,5 +1,8 @@
-# skip the node_modules
+# skip the node modules
 node_modules
 
 # skip the generated NetSuite JavaScript files
 src/FileCabinet/SuiteScripts
+
+# skip the SuiteCloud SDK config file
+suitecloud.config.js
