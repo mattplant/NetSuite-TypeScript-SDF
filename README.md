@@ -1,5 +1,7 @@
 # NetSuite TypeScript SDF Project Template
 
+For an example of this project template being used, see [SuiteFrame TypeScript SDF Project Template](https://github.com/mattplant/suiteframe-typescript-sdf).
+
 ## Requirements
 - Node - https://nodejs.org/
 - TypeScript - https://www.typescriptlang.org/
@@ -26,7 +28,7 @@ These initial steps will only need to be done once.
   - in command palette, select "Tasks: Manage Automatic Tasks in Folder" and then "Allow Automatic Tasks in Folder"
 
 ## Usage
-Now in VS Code when you create your TypeScript files in the */src/TypeScripts* folder they will automatically be linted as you type and automatically formatted and code fixed upon saving. The corresponding JavaScript for NetSuite's API Version 2.0 (aka SuiteScript 2.0) will automatically be generated in the */src/FileCabinet/SuiteScripts* directory ready for upload to your NetSuite account.
+Now in VS Code when you create your TypeScript files in the */src/TypeScripts/netsuite-typescript-sdf/ folder they will automatically be linted as you type and automatically formatted and code fixed upon saving. The corresponding JavaScript for NetSuite's API Version 2.1 (aka SuiteScript 2.1) will automatically be generated in the */src/FileCabinet/SuiteScripts/netsuite-typescript-sdf/ folder ready for deployment to your NetSuite account.
 
 ## Notes
 NetSuite customization development is now done with modern tools. You now have complete control over your development processes including using VS Code. Your NetSuite customizations (files, scripts and other custom objects) can be imported and exported between your NetSuite environments (production, sandbox, release preview, or development) and your development environment including detailed deployment logs and audit trails.
