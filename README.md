@@ -1,6 +1,6 @@
 # NetSuite TypeScript SDF Project Template
 
-For an example of this project template being used, see [SuiteFrame TypeScript SDF Project Template](https://github.com/mattplant/suiteframe-typescript-sdf).
+For an example of this project template being used, see [NetSuite SuiteFrame SDF Project Template](https://github.com/mattplant/NetSuite-SuiteFrame-SDF).
 
 ## Requirements
 - Node - https://nodejs.org/
@@ -59,4 +59,4 @@ Tools I used to fufill the above requirements in macOS.
 - Oracle's SuiteCloud extension for VS Code (optional)
   - [SuiteCloud Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Oracle.suitecloud-vscode-extension)
 - Microsoft's ESLint extension for VS Code (optional)
-  - ["ESLint"](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)

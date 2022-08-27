@@ -1,12 +1,11 @@
 {
     "name": "netsuite-typescript-sdf",
-    "displayName": "NetSuite TypeScript SDF",
     "description": "NetSuite TypeScript SDF Project Template",
     "keywords": [
         "netsuite",
+        "sdf",
         "suitescript",
-        "typescript",
-        "sdf"
+        "typescript"
     ],
     "author": {
         "name": "Matthew Plant",
