@@ -20,7 +20,7 @@ logs
 *.log
 npm-debug.log*
 
-# Packaged SDF projects
+# Packaged SuiteCloud projects
 build
 
 # misc
@@ -28,9 +28,6 @@ build
 
 # Optional npm cache directory
 .npm
-
-# Lerna
-lerna-debug.log
 
 # System Files
 .DS_Store
