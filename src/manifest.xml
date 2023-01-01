@@ -1,5 +1,5 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
-  <projectname>NetSuite-SuiteFrame-SDF</projectname>
+  <projectname>NetSuite_TypeScript_SDF</projectname>
   <frameworkversion>1.0</frameworkversion>
   <dependencies>
     <features>
