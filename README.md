@@ -1,6 +1,6 @@
 # NetSuite TypeScript SDF Project Template
 
-For an example of this project template being used, see [NetSuite SuiteFrame SDF Project Template](https://github.com/mattplant/NetSuite-SuiteFrame-SDF).
+For an example of this project template being used, see [SuiteTools](https://github.com/mattplant/SuiteTools).
 
 ## Requirements
 
